@@ -7,7 +7,7 @@ services:
   disk:
     name: ghost
     mountPath: /var/lib/ghost/content
-    sizeGB: 1 #Feel free to change this to suit your needs.
+    sizeGB: 2 #Feel free to change this to suit your needs.
   envVars:
     - key: database__client
       value: mysql
