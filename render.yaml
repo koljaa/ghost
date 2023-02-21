@@ -3,7 +3,7 @@ services:
   name: ghost
   env: docker
   autoDeploy: false
-  plan: free
+  plan: starter
   disk:
     name: ghost
     mountPath: /var/lib/ghost/content
