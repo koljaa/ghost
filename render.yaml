@@ -28,11 +28,10 @@ services:
 
 - type: pserv
   name: mysql
-  plan: standard
+  plan: free
   env: docker
   repo: https://github.com/render-examples/mysql
   autoDeploy: false
-  plan: free
   disk:
     name: mysql
     mountPath: /var/lib/mysql
