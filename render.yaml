@@ -3,6 +3,7 @@ services:
   name: ghost
   env: docker
   autoDeploy: false
+  plan: free
   disk:
     name: ghost
     mountPath: /var/lib/ghost/content
@@ -31,6 +32,7 @@ services:
   env: docker
   repo: https://github.com/render-examples/mysql
   autoDeploy: false
+  plan: free
   disk:
     name: mysql
     mountPath: /var/lib/mysql
